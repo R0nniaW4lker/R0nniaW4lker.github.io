@@ -12,9 +12,14 @@ body {
 /* navigation menu */
 nav {
     background: rgb(48, 6, 3);
-   margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 8px;
+    
+}
+img {
+    border-radius: 8px;
+    border: 4px grey ridge;
 }
 h1 {
     display: flex;
@@ -54,7 +59,8 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border-radius: 8px;
+    border: 4px  grey ridge;
     padding: 8px;
 }
 h2, h3 {
