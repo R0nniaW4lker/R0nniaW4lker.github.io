@@ -64,6 +64,15 @@ main {
     flex: 1;
     padding: 15px;
 }
+.bats-img {
+        width:170px;
+        height:auto;
+        border:none;
+}
+.divider-img {
+    border:none;
+    
+}
 
 /* portfolio styles */
 #interests {
