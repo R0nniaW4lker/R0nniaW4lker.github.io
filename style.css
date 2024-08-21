@@ -5,7 +5,7 @@ body {
     font-family: fantasy; font-style:italic
 }
 #all-contents {
-  max-width: 800px;
+  max-width: 900px;
     margin: auto;
 }
 
@@ -71,6 +71,7 @@ main {
 }
 .divider-img {
     border:none;
+
     
 }
 
