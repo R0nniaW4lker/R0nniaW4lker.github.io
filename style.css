@@ -1,7 +1,7 @@
 body {
     background: rgb(84, 10,5);
     color: #2d2d2d;
-    padding: 16px;
+    padding: 10px;
     font-family: fantasy; font-style:italic
 }
 #all-contents {
@@ -37,7 +37,7 @@ h1 {
 }
 .nav-li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -51,7 +51,10 @@ main {
     border-style: outset;
    border-color:rgb(36, 4, 4);
    border-width:5px;
-   border-radius:6px
+   border-radius:6px;
+   height:510px;
+
+
    
 }
 .sidebar {
@@ -63,7 +66,7 @@ main {
 }
 .content {
     flex: 1;
-    padding: 15px;
+    padding: 10px;
 }
 .bats-img {
         width:170px;
@@ -72,6 +75,7 @@ main {
 }
 .divider-img {
     border:none;
+   width:615px;
 
     
 }
@@ -82,6 +86,10 @@ main {
     border: 4px  grey ridge;
     padding: 8px;
 }
+.music
+
+
 h2, h3 {
     margin: 0px;
+    vertical-align:top
 }
