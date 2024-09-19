@@ -13,4 +13,7 @@ canvas {
 img {
   display: none;
 }
+createPlatform {
+  color:black;
+}
 

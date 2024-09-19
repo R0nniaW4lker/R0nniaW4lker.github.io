@@ -66,11 +66,12 @@ createPlatform(560,230,230,20);
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-createCannon("left",655,1000);
-createCannon("right",770,1000);
+createCannon("left",655,1600);
+createCannon("right",770,1600);
 createCannon("left", 385,1500);
 createCannon("right", 500,1500);
-
+createCannon("left", 140,1700);
+createCannon("right", 255,1700);
 
     
     /////////////////////////////////////////////////
