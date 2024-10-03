@@ -70,6 +70,7 @@
             //variable declaration//
 			var positionX = 0
 			var points = 0
+			var speed = 10
 
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -78,11 +79,13 @@
 			*/
 			function update() {
 				/*increase positionX by 10*/
+				positionX = positionX + speed;
 				moveBoxTo(positionX);
-				positionX = positionX + 10
+				if (positionX > boardWidth){
+					speed= -speed;
+				}
+            };
 
-
-			};
 
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
@@ -95,6 +98,7 @@
 				//use code to increase point var by 1
 				changeBoxText(points);
 				points = points + 1;
+				speed = speed + 3;
 
 
 			};
